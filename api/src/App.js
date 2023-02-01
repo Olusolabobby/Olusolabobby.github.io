@@ -60,10 +60,9 @@ function App() {
             {container.map((items) => {
                 return (
                     <div className="element-div">
-                        <p>{items.l}</p>
                         <img src={items.i.imageUrl} alt="" />
-
-
+                        <p>{items.l}</p>
+                        <p>{items.s}</p>
                     </div>
                 )
             })}
